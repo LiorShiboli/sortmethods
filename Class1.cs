@@ -4,15 +4,14 @@ namespace practice
 {
     public class sort
     {
-        public void Insertion(double[] arr)
-        {
-            public static void Swpbig (double[] arry,int big,int sml)
+        
+            public static void Swpbig (double[] arry,int big,int sml)//swap numbers in an array  so the bigger number is in the place thats specified and so is the smaller number
         {
             double tmp = Math.Min(arry[big], arry[sml]);
             arry[big] = Math.Max(arry[big], arry[sml]);
             arry[sml] = tmp;
         }
-        public static void Insertion(double[] arr)
+        public static void Insertion(double[] arr)// classic insertion sort
         {
             for (int i = 0; i < arr.Length; i++)
             {
